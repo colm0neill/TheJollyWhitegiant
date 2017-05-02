@@ -1,0 +1,676 @@
+a:link {
+    color: rgba(0,0,0,.0);
+}
+
+/* visited link */
+a:visited {
+    color:  rgba(0,0,0,.0);
+}
+
+/* mouse over link */
+a:hover {
+    color:  rgba(0,0,0,.0);
+}
+
+/* selected link */
+a:active {
+    color:  rgba(0,0,0,.0);
+}
+
+@font-face {
+    font-family: "WWDC";
+    src: url(Resources/LetterGothicStd.otf)
+}
+
+body{
+background:#282b35;
+margin-top:180px;
+
+}
+
+p{
+margin-top:180px;
+}
+
+
+#deadder{
+width:100%;
+background:#282b35;
+position:fixed;
+height:160px;
+top:0px;
+z-index:10;
+}
+
+#logo{
+position:relative;
+top:55px;
+left:36px;
+}
+#string{
+margin-left:146px;
+margin-right:50px;
+margin-top:-40px;
+font-family:"WWDC";
+padding-bottom:20px;
+padding-left:20px;
+border-bottom: .5px solid white;
+}
+
+.the{
+font-size:40px;
+color:#66885c;
+}
+
+.jolly{
+font-size:40px;
+color:#85356e;
+}
+
+.white{
+font-size:40px;
+color:#9d6b53;
+}
+
+.giant{
+font-size:40px;
+color:#097877;
+}
+
+.by{
+font-size:20px;
+color:#b8343c;
+}
+
+.colm{
+font-size:20px;
+color:#66885c;
+}
+
+.oneill{
+font-size:20px;
+color:#66648a;
+}
+
+#left-text{
+	width:300px;
+	font-family:"WWDC";
+	color:#85356e;
+	font-size:40px;
+	position:relative;
+	left:30%;
+	top:15%;
+	margin-top:30px;
+    -webkit-margin-after: 0em;
+}
+
+#right-text{
+	width:300px;
+	font-family:"WWDC";
+	color:#85356e;
+	font-size:40px;
+	position:relative;
+	left:68%;
+	top:-100px;
+	margin-bottom:0px;
+	margin-top:0px;
+	-webkit-margin-before: -1em;
+}
+
+#middle{
+	margin-left:60px;
+	line-height:80px;
+}
+
+#name{
+	postion:relative;
+	margin-left:-100px;
+}
+
+#about_me{
+	position:relative;
+	top:-60px;
+	left:45%;
+	border-radius:50%;
+	z-index:10;
+}
+
+
+
+#a-welcome{
+	overflow:scroll;
+	padding:10px;
+	background-color:#ffffff;
+	opacity:1;
+	
+	white-space:norap;
+	overflow-y: hidden; // hide vertical
+	overflow-x: hidden;
+}
+
+#learnM{
+	text-align:center;
+	line-height:300px;
+	font-family:"WWDC";
+	border-radius:50%;
+	width:306px;
+	height:306px;
+	color:#b8343c;
+	font-size:40px;
+	position:fixed;
+	top:36%;
+	left:45%;
+	z-index:12;
+}
+
+#learnM:hover{
+	background-color:#000000;
+	opacity:.5;
+-webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  
+
+
+}
+
+#about-T{
+	visibility:hidden;
+	margin:20px;
+	position:fixed;
+	top:200px;
+	padding:50px;
+	font-size:200px;
+	font-family:"WWDC";
+	
+}
+
+#about-T p{
+	margin:40px;
+}
+
+
+#contactInfo{
+	transition:opacity 3s ease;
+	padding:50px;
+	margin-top:0px;
+	opacity:0;
+	height:100px;
+	overflow:hidden;
+	background-color:#097877;
+	position:fixed;
+	visibility:hidden;
+	font-family: "WWDC";
+	color:white;
+}
+
+#contactInfo a:link {
+    color: rgba(255,255,255,1.0);
+}
+
+#content{
+	position:relative;
+	top:-160px;
+	
+}
+
+footer{
+	
+	height:50px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	visibility:visible;
+	font-family: "WWDC";
+	background-color:#282b35;
+	margin-top:0px;
+	line-height:80px;
+}
+
+footer p{
+	margin:30px;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+
+body{
+background:#282b35;
+margin-top:180px;
+}
+
+p{
+margin-top:180px;
+}
+#deadder{
+width:100%;
+background:#282b35;
+position:fixed;
+height:160px;
+top:0px;
+z-index:10;
+}
+
+#logo{
+position:relative;
+top:50px;
+left:36px;
+}
+#string{
+margin-left:146px;
+margin-right:50px;
+margin-top:-40px;
+font-family:"WWDC";
+padding-bottom:20px;
+padding-left:20px;
+border-bottom: .5px solid white;
+}
+
+.the{
+font-size:40px;
+color:#66885c;
+}
+
+.jolly{
+font-size:40px;
+color:#85356e;
+}
+
+.white{
+font-size:40px;
+color:#9d6b53;
+}
+
+.giant{
+font-size:40px;
+color:#097877;
+}
+
+.by{
+font-size:20px;
+color:#b8343c;
+}
+
+.colm{
+font-size:20px;
+color:#66885c;
+}
+
+.oneill{
+font-size:20px;
+color:#66648a;
+}
+
+#left-text{
+	width:300px;
+	font-family:"WWDC";
+	color:#85356e;
+	font-size:40px;
+	position:relative;
+	left:13%;
+	top:15%;
+	margin-top:30px;
+    -webkit-margin-after: 0em;
+}
+
+#right-text{
+	width:300px;
+	font-family:"WWDC";
+	color:#85356e;
+	font-size:40px;
+	position:relative;
+	left:68%;
+	top:-160px;
+	margin-bottom:0px;
+	margin-top:0px;
+	-webkit-margin-before: -1em;
+}
+
+#middle{
+	margin-left:60px;
+	line-height:80px;
+}
+
+#name{
+	postion:relative;
+	margin-left:-80px;
+}
+
+#about_me{
+	position:relative;
+	top:-120px;
+	left:38%;
+	border-radius:50%;
+	z-index:10;
+}
+
+
+
+#a-welcome{
+	overflow:scroll;
+	padding:10px;
+	background-color:#ffffff;
+	opacity:1;
+	
+	white-space:norap;
+	overflow-y: visible; // hide vertical
+	overflow-x: hidden;
+}
+
+#learnM{
+	text-align:center;
+	line-height:300px;
+	font-family:"WWDC";
+	border-radius:50%;
+	width:306px;
+	height:306px;
+	color:#b8343c;
+	font-size:40px;
+	position:fixed;
+	top:29.5%;
+	left:38.5%;
+	z-index:12;
+}
+
+#learnM:hover{
+	background-color:#000000;
+	opacity:.5;
+-webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  
+
+
+}
+
+#about-T{
+	visibility:hidden;
+	margin:20px;
+	position:fixed;
+	height:600px;
+	top:200px;
+	padding:50px;
+	font-size:200px;
+	font-family:"WWDC";
+	
+}
+
+#about-T p{
+	margin:40px;
+}
+
+
+#contactInfo{
+	transition:opacity 3s ease;
+	padding:50px;
+	margin-top:0px;
+	opacity:0;
+	height:100px;
+	overflow:hidden;
+	background-color:#097877;
+	position:fixed;
+	visibility:hidden;
+	font-family: "WWDC";
+	color:white;
+}
+
+#contactInfo a:link {
+    color: rgba(255,255,255,1.0);
+}
+
+#content{
+	position:relative;
+	top:-160px;
+	
+}
+
+footer{
+	
+	height:50px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	visibility:visible;
+	font-family: "WWDC";
+	background-color:#282b35;
+	margin-top:0px;
+	line-height:80px;
+}
+
+footer p{
+	margin:30px;
+}
+
+}
+
+
+@media only screen and (max-width: 520px){
+
+
+body{
+background:#282b35;
+margin-top:180px;
+margin-left:0px;
+}
+
+p{
+margin-top:180px;
+}
+#deadder{
+width:100%;
+background:#282b35;
+position:fixed;
+margin:0px;
+height:140px;
+top:0px;
+z-index:10;
+border-bottom:.5px white solid;
+}
+
+#logo{
+position:relative;
+top:20px;
+left:20px;
+width:90px;
+height:90px;
+
+}
+#string{
+line-height: 90%;
+text-align:right;
+margin-left:106px;
+margin-right:20px;
+margin-right:20px;
+margin-top:-70px;
+font-family:"WWDC";
+padding-bottom:20px;
+padding-left:20px;
+border-bottom: 0px solid white;
+}
+
+.the{
+font-size:24px;
+color:#66885c;
+}
+
+.jolly{
+font-size:24px;
+color:#85356e;
+}
+
+.white{
+font-size:24px;
+color:#9d6b53;
+}
+
+.giant{
+font-size:24px;
+color:#097877;
+}
+
+.by{
+font-size:12px;
+color:#b8343c;
+}
+
+.colm{
+font-size:12px;
+color:#66885c;
+}
+
+.oneill{
+font-size:12px;
+color:#66648a;
+}
+
+
+#left-text{
+	width:300px;
+	font-family:"WWDC";
+	color:#85356e;
+	font-size:40px;
+	position:relative;
+	left:10%;
+	top:15%;
+	margin-top:30px;
+    -webkit-margin-after: 0em;
+}
+
+#right-text{
+	width:300px;
+	font-family:"WWDC";
+	color:#85356e;
+	font-size:40px;
+	position:relative;
+	left:68%;
+	top:-80px;
+	margin-bottom:0px;
+	margin-top:0px;
+	-webkit-margin-before: -1em;
+}
+
+#middle{
+	margin-left:80px;
+	line-height:80px;
+}
+
+#name{
+	postion:relative;
+	margin-left:-80px;
+}
+
+#about_me{
+	position:relative;
+	margin:40px;
+	width:80%;
+	height
+	top:-10px;
+	left:0%;
+	border-radius:0%;
+	z-index:10;
+	background-position: 30% 20%; 
+}
+
+
+
+#a-welcome{
+	overflow:scroll;
+	padding:10px;
+	background-color:#ffffff;
+	opacity:1;
+	
+	white-space:norap;
+	overflow-y: visible; // hide vertical
+	overflow-x: hidden;
+}
+
+#learnM{
+	margin-right:48px;
+	margin-left:8px;
+	text-align:center;
+	line-height:300px;
+	font-family:"WWDC";
+	border-radius:0%;
+	width:94%;
+	height:41.5%;
+	color:#b8343c;
+	font-size:40px;
+	position:fixed;
+	top:29.5%;
+	left:0%;
+	z-index:12;
+}
+
+#learnM:hover{
+	background-color:#000000;
+	opacity:.5;
+-webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  
+
+
+}
+
+#about-T{
+	visibility:hidden;
+	margin-top:40px;
+	margin-left:0px;
+	margin-right:0px;
+	position:fixed;
+	height:600px;
+	top:200px;
+	padding:10px;
+	font-size:200px;
+	font-family:"WWDC";
+	
+}
+
+#about-T p{
+	margin:40px;
+}
+
+
+#contactInfo{
+	transition:opacity 3s ease;
+	padding:50px;
+	margin-top:0px;
+	opacity:0;
+	height:100px;
+	overflow:hidden;
+	background-color:#097877;
+	position:fixed;
+	visibility:hidden;
+	font-family: "WWDC";
+	color:white;
+}
+
+#contactInfo a:link {
+    color: rgba(255,255,255,1.0);
+}
+
+#content{
+	position:relative;
+	top:-160px;
+	
+}
+
+footer{
+	
+	height:50px;
+	text-align:center;
+	color:white;
+	text-decoration:none;
+	visibility:visible;
+	font-family: "WWDC";
+	background-color:#282b35;
+	margin-top:0px;
+	line-height:80px;
+}
+
+footer p{
+	margin:30px;
+}
+
+
+
+}
+
