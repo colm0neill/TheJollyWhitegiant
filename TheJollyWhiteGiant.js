@@ -98,7 +98,7 @@ loadCount++;
 
 var items = ["<b>Graphics</b>", "<b>Code</b>", "<b>Projects</b>", "<b>About</b>"];
 var menuImg = ["Resources/Images/Crysis of the Moon.png","Resources/Images/Code.png","Resources/Images/HAND AND OCTOPUS VECTOR 1-01 copy.jpg","Resources/Images/The Jolly White Giant (blue) Final copy.png"];
-var linktopage = ["TheJollyWhiteGiant-Graphics.html", "TheJollyWhiteGiant-Code.html","null", "TheJollyWhiteGiant-About.html"];
+var linktopage = ["TheJollyWhiteGiant-Graphics.html", "TheJollyWhiteGiant-Code.html","TheJollyWhiteGiant-Projects.html", "TheJollyWhiteGiant-About.html"];
 
 function menuDisplay(){
 	
