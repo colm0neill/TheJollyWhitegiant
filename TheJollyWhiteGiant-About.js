@@ -54,7 +54,7 @@ function removeImg(){
 	img.remove(0);
 	
 	var main = document.getElementById("a-welcome");
-	main.style.height = "510px";
+	main.style.height = "480px";
 	
 flickerin();
 }
@@ -70,7 +70,8 @@ function flickerin(){
 		text.style.top = "-80px";
 		
 	
-		
+	var foot = document.getElementById("a-welcome");
+		foot.style.marginBottom = "200px";
 	
 	
 		
@@ -90,6 +91,8 @@ function flickerin(){
 					cont.style.opacity = "1";
 					cont.style.position = "relative";
 					cont.style.visibility = "visible";
+					var foot = document.getElementById("a-welcome");
+					foot.style.marginBottom = "0px";
 				}
     console.log(textS);
 		}, i * 30);
