@@ -1,3 +1,9 @@
+var screenHeight = screen.height;
+var screenWidth  = screen.width;
+
+
+alert("screenwidth = "+screenWidth+" ScreenHeight = "+screenHeight);
+
 function dropBall(){
 	//alert("foo");
 var logo = document.getElementById("about_me");
