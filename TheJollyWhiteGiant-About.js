@@ -54,7 +54,7 @@ function removeImg(){
 	img.remove(0);
 	
 	var main = document.getElementById("a-welcome");
-	main.style.height = "550px";
+	main.style.height = "510px";
 	
 flickerin();
 }
