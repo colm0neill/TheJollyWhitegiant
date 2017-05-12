@@ -488,7 +488,7 @@ top:20px;
 }
 
 }
-@media only screen and (max-width: 480px), only screen and (max-device-width: 640px) {
+@media only screen and (max-width: 480px){
 
 
 body{
@@ -583,8 +583,8 @@ visibility:hidden;
 
 th, td{
 display:inline-block;
-height:150px;
-width:150px;
+height:200px;
+width:200px;
 position:relative;
 border-radius:20px;
 }
@@ -598,7 +598,6 @@ z-index:0;
 font-family:"WWDC";
 padding-left:0px;
 height:600px;
-width:160px;
 width:160px;
 list-style:none;
 
@@ -640,6 +639,7 @@ border-bottom:none;
 display: none;
 float:right;
 position:relative;
+width:300%;
 top:-75px;
 left:460px;
 }
@@ -689,8 +689,8 @@ background-repeat: no-repeat;
 
 color:rgba(0,0,0, .0);
 border:solid 1px white;
-width:150px;
-height:150px;
+width:200px;
+height:200px;
 border-radius:4px;
 
 
@@ -704,8 +704,8 @@ transition: .3s ease-in-out;
 #oLay{
 background:rgba(255,255,255,.1);
 
-font-size:15px;
-line-height:150px;
+font-size:30px;
+line-height:200px;
 text-align:center;
 display:none;
 clear:both;
@@ -717,10 +717,10 @@ bottom:0;
 position:absolute;
 z-index:2;
 border:solid 1px white;
-width:150px;
-height:150px;
+width:200px;
+height:200px;
 border-radius:4px;
-left:150px;
+left:100px;
 top:20px;
 
 
