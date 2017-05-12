@@ -43,7 +43,8 @@ function blindText(){
 		wText.style.filter  = "blur(5px)";
 		
 	var derp = document.getElementById("a-welcome");
-		derp.style.transition = "all 4s ease";
+		derp.style.transition = "height 4s ease";
+		derp.style.transition = "font-size 4s ease";
 
 setTimeout(removeImg, 1000);	
 }
