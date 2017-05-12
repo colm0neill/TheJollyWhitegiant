@@ -45,6 +45,9 @@ function blindText(){
 	var derp = document.getElementById("a-welcome");
 		derp.style.transition = "height 4s ease";
 		derp.style.transition = "font-size 4s ease";
+		derp.style.transition = "margin-bottom 0s ease";
+
+	
 
 setTimeout(removeImg, 1000);	
 }
