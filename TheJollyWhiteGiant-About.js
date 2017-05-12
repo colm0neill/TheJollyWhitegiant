@@ -2,7 +2,7 @@ var screenHeight = screen.height;
 var screenWidth  = screen.width;
 
 
-alert("screenwidth = "+screenWidth+" ScreenHeight = "+screenHeight);
+
 
 function dropBall(){
 	//alert("foo");
@@ -63,8 +63,17 @@ function removeImg(){
 	var img = document.getElementById("about_me");
 	img.remove(0);
 	
+	var w = screenWidth%9;
+	var h screenHeight%16;
+	
+	if((w == 0)&&(h == 0 )){
+	var main = document.getElementById("a-welcome");
+	main.style.height = "665px";
+	}
+	else{
 	var main = document.getElementById("a-welcome");
 	main.style.height = "465px";
+	}
 	
 flickerin();
 }
