@@ -64,7 +64,7 @@ function removeImg(){
 	img.remove(0);
 	
 	var w = screenWidth%9;
-	var h screenHeight%16;
+	var h = screenHeight%16;
 	
 	if((w == 0)&&(h == 0 )){
 	var main = document.getElementById("a-welcome");
