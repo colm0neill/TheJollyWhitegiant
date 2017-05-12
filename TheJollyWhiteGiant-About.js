@@ -68,7 +68,7 @@ function removeImg(){
 	
 	if((w == 0)&&(h == 0 )){
 	var main = document.getElementById("a-welcome");
-	main.style.height = "865px";
+	main.style.height = "1065px";
 	}
 	else{
 	var main = document.getElementById("a-welcome");
