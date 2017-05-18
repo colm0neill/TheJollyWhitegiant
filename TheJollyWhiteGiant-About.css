@@ -375,8 +375,9 @@ color:#66648a;
 }
 
 #learnM:hover{
-	background-color:#000000;
-	opacity:.5;
+	background-color:rgba(255,255,255,0);
+	opacity:1;
+	
 -webkit-filter: grayscale(1);
   filter: grayscale(1);
   
