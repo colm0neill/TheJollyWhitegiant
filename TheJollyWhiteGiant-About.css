@@ -353,7 +353,7 @@ color:#66648a;
 	padding:10px;
 	background-color:#ffffff;
 	opacity:1;
-	
+	height:448;
 	white-space:norap;
 	overflow-y: visible; // hide vertical
 	overflow-x: hidden;
@@ -368,9 +368,9 @@ color:#66648a;
 	height:306px;
 	color:#b8343c;
 	font-size:40px;
-	position:fixed;
+	position:absolute;
 	top:27%;
-	left:34.5%;
+	left:34%;
 	z-index:10;
 }
 
@@ -525,110 +525,7 @@ color:#66648a;
 }
 
 
-#left-text{
-	width:300px;
-	font-family:"WWDC";
-	color:#85356e;
-	font-size:40px;
-	position:relative;
-	left:10%;
-	top:15%;
-	margin-top:30px;
-    -webkit-margin-after: 0em;
-}
 
-#right-text{
-	width:300px;
-	font-family:"WWDC";
-	color:#85356e;
-	font-size:40px;
-	position:relative;
-	left:68%;
-	top:-80px;
-	margin-bottom:0px;
-	margin-top:0px;
-	-webkit-margin-before: -1em;
-}
-
-#middle{
-	margin-left:80px;
-	line-height:80px;
-}
-
-#name{
-	postion:relative;
-	margin-left:-80px;
-}
-
-#about_me{
-	position:relative;
-	margin:40px;
-	width:80%;
-	height
-	top:-10px;
-	left:0%;
-	border-radius:0%;
-	z-index:10;
-	background-position: 30% 20%; 
-}
-
-
-
-#a-welcome{
-	overflow:scroll;
-	padding:10px;
-	background-color:#ffffff;
-	opacity:1;
-	
-	white-space:norap;
-	overflow-y: visible; // hide vertical
-	overflow-x: hidden;
-}
-
-#learnM{
-	margin-right:48px;
-	margin-left:8px;
-	text-align:center;
-	line-height:300px;
-	font-family:"WWDC";
-	border-radius:0%;
-	width:94%;
-	height:41.5%;
-	color:#b8343c;
-	font-size:40px;
-	position:fixed;
-	top:36%;
-	left:0%;
-	z-index:12;
-}
-
-#learnM:hover{
-	background-color:#000000;
-	opacity:.5;
--webkit-filter: grayscale(1);
-  filter: grayscale(1);
-  
-
-
-}
-
-#about-T{
-	visibility:hidden;
-	margin-top:40px;
-	margin-left:0px;
-	margin-right:0px;
-	position:fixed;
-	height:600px;
-	top:200px;
-	padding:10px;
-	font-size:200px;
-	font-family:"WWDC";
-	
-}
-
-#about-T p{
-	margin:40px;
-}
 
 
 #contactInfo{
