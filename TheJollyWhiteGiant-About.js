@@ -1,11 +1,28 @@
 var screenHeight = screen.height;
 var screenWidth  = screen.width;
 
+	var wo = screenWidth%9;
+	var ho = screenHeight%16;
+		
+	setTimeout(change, 100);
+	
+function change(){
+	var hello = document.getElementById("a-welcome");
+	
+	if((wo == 0)&&(ho == 0 )){
+//alert("yurt");
 
-
+		hello.style.height = 1000+"px";
+		hello.style.fontSize = "50px"; 
+	}
+	else{
+	var main = document.getElementById("a-welcome");
+	//main.style.height = "465px";
+	}
+}
 
 function dropBall(){
-	//alert("foo");
+	
 var logo = document.getElementById("about_me");
 var pos = 0;
 var id = setInterval(frame, 2);
@@ -73,7 +90,7 @@ function removeImg(){
 	else{
 	var main = document.getElementById("a-welcome");
 	main.style.height = "465px";
-	}
+	}	
 	
 flickerin();
 }
