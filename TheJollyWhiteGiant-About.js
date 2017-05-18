@@ -1,7 +1,7 @@
 var screenHeight = screen.height;
 var screenWidth  = screen.width;
 
-<<<<<<< HEAD
+
 	var wo = screenWidth%9;
 	var ho = screenHeight%16;
 		
@@ -12,9 +12,6 @@ function change(){
 	
 	if((wo == 0)&&(ho == 0 )){
 //alert("yurt");
-=======
-alert("Height:"+ screenHeight +" Width:"+ screenWidth);
->>>>>>> origin/gh-pages
 
 		hello.style.height = 1000+"px";
 		hello.style.fontSize = "50px"; 
