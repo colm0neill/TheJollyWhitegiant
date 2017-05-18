@@ -368,8 +368,8 @@ color:#66648a;
 	height:306px;
 	color:#b8343c;
 	font-size:40px;
-	position:absolute;
-	top:36%;
+	position:fixed;
+	top:27%;
 	left:34.5%;
 	z-index:10;
 }
