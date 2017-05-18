@@ -248,7 +248,7 @@ background:#282b35;
 position:fixed;
 height:160px;
 top:0px;
-z-index:10;
+z-index:11;
 }
 
 #logo{
@@ -261,9 +261,10 @@ margin-left:146px;
 margin-right:50px;
 margin-top:-40px;
 font-family:"WWDC";
+margin-bottom:50px;
 padding-bottom:20px;
 padding-left:20px;
-border-bottom: .5px solid white;
+border-bottom: 1px solid white;
 }
 
 .the{
@@ -305,7 +306,7 @@ color:#66648a;
 	width:300px;
 	font-family:"WWDC";
 	color:#85356e;
-	font-size:40px;
+	font-size:30px;
 	position:relative;
 	left:13%;
 	top:15%;
@@ -317,10 +318,10 @@ color:#66648a;
 	width:300px;
 	font-family:"WWDC";
 	color:#85356e;
-	font-size:40px;
+	font-size:30px;
 	position:relative;
 	left:68%;
-	top:-160px;
+	top:-190px;
 	margin-bottom:0px;
 	margin-top:0px;
 	-webkit-margin-before: -1em;
@@ -339,9 +340,9 @@ color:#66648a;
 #about_me{
 	position:relative;
 	top:-120px;
-	left:38%;
+	left:34%;
 	border-radius:50%;
-	z-index:10;
+	z-index:9;
 }
 
 
@@ -367,9 +368,9 @@ color:#66648a;
 	color:#b8343c;
 	font-size:40px;
 	position:absolute;
-	top:43%;
-	left:38.5%;
-	z-index:12;
+	top:36%;
+	left:34.5%;
+	z-index:10;
 }
 
 #learnM:hover{
