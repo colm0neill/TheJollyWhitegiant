@@ -82,19 +82,20 @@ function showImg(className){
 	close_img.setAttribute("value", "x");
 	close_img.style.fontSize = "50px";
 	close_img.style.position = "absolute";
-	close_img.style.top = "0px";
-	close_img.style.left = "95%";
+	close_img.style.top = "55px";
+	close_img.style.left = "85%";
 	
 	
 	
 	var img_display = document.createElement("img");
 	img_display.src = "Resources/Images/Library/"+rey[name_pos];
 	img_display.setAttribute("id" , "ImageDis");
-	img_display.style.width = "70%";
+	img_display.style.width = "60%";
 	img_display.style.border = "solid white 2px";
 	img_display.style.position ="absolute";
 	img_display.style.margin = 10+"%";
-	img_display.style.marginLeft = 15+"%";
+	img_display.style.marginTop = 5+"%";
+	img_display.style.marginLeft = 20+"%";
 	
 	
 	

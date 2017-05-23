@@ -216,6 +216,10 @@ background-color:#edc500;
 	
 	
 }
+#ImageDis{
+	
+	
+}
 
 #img{
 	width:200px;
@@ -225,13 +229,14 @@ background-color:#edc500;
 	margin:27px;
 	border:solid 1px black;
 	background-position:center;
-	background-size:300px 200px;
+	background-size:40% 40%;
 	
 }
 
 #overlay{
 	background:rgba(000,000,000,.5);
 	width:100%;
+	
 	z-index:1;
 	postion:fixed;
 	top:0px;
@@ -242,10 +247,11 @@ background-color:#edc500;
 	font-family: 'Fredoka One', cursive;
 	color: white;
     padding: 10px;
-	padding-left:20px;
-	padding-right:20px;
-	border-bottom-left-radius:4px;
+	padding:22px;
+	padding-bottom:25px;
+	line-height:28px;
 	border:none;
+	border-radius:50%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
