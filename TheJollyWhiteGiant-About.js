@@ -12,9 +12,12 @@ function change(){
 	
 	if((wo == 0)&&(ho == 0 )){
 //alert("yurt");
+<<<<<<< HEAD
 
 alert("Height:"+ screenHeight +" Width:"+ screenWidth);
 
+=======
+>>>>>>> origin/gh-pages
 
 		hello.style.height = 1000+"px";
 		hello.style.fontSize = "50px"; 
